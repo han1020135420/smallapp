@@ -15,4 +15,5 @@ App({
   globalData: {
     hasLogin: false
   }
+  
 })
