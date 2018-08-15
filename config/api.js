@@ -5,8 +5,8 @@
 // var WxApiRoot = 'http://192.168.0.101:8082/wx/';
 // 云平台部署时使用
 //  var WxApiRoot = 'http://122.152.206.172:8082/wx/';
-// var WxApiRoot = 'http://127.0.0.1:8080/wx/';
-var WxApiRoot = 'http://wwwhp.onerway.cn/wx/';
+var WxApiRoot = 'http://180.168.194.237:8888/wx/';
+// var WxApiRoot = 'http://wwwhp.onerway.cn/wx/';
 // 云平台上线时使用
 // var WxApiRoot = 'https://www.example.com/wx/';
 

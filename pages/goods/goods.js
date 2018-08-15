@@ -351,7 +351,7 @@ Page({
         });
         return false;
       }
-
+     
       let checkedProduct = checkedProductArray[0];
       //验证库存
       if (checkedProduct.goodsNumber <= 0) {
@@ -361,10 +361,10 @@ Page({
         });
         return false;
       }
-
+     
       //立即购买
       util.request(api.CartFastAdd, { goodsId: this.data.goods.id, number: this.data.number, productId: checkedProduct.id }, "POST")
-        .then(function (res) {
+        .then(function (res) { 
           if (res.errno == 0) {
 
             // 如果storage中设置了cartId，则是立即购买，否则是购物车购买
